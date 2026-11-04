@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/fourwalls?currentSchema=app
+    username: fourwalls_app
+    password: dev_app
+    hikari:
+      maximum-pool-size: 5
+  flyway:
+    url: jdbc:postgresql://localhost:5432/fourwalls
+    user: fourwalls_migrator
+    password: dev_migrator

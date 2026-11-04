@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: fourwalls-backend
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: validate
+  flyway:
+    schemas: app
+    default-schema: app
