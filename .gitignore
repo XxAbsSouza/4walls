@@ -13,6 +13,7 @@
 
 # SQL files with local credentials
 infra/sql/*.local.sql
+infra/docker-compose.dev.yml
 
 # Certificates and private keys
 *.pem
